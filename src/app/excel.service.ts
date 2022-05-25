@@ -376,12 +376,44 @@ column16.fill= {
   }
   column16.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
 
+  worksheet.mergeCells('E12:F14')
 
 
+  const columnE = worksheet.getCell('E12')
+  columnE.value= 'LSS/N2302– Contribute to achieving product quality in cutting processes	'
+  columnE.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
+  columnE.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+  columnE.fill= {
+    type: 'pattern',
+    pattern: 'solid',
+    fgColor: { argb: 'FFFF00' }
+    }
+    columnE.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
 
+/////////////
+    const columnE15 = worksheet.getCell('E15')
+    columnE15.value= 'Theory'
+    columnE15.font = { name: 'Times New Roman', family: 4, size: 10, underline: 'none', bold: true,color:{argb: '000000'} };
+    columnE15.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+    columnE15.fill= {
+  type: 'pattern',
+  pattern: 'solid',
+  fgColor: { argb: 'FFFF00' }
+  }
+  columnE15.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
 
+  ////////
 
-
+  const columnF15 = worksheet.getCell('F15')
+    columnF15.value= 'Practical'
+    columnF15.font = { name: 'Times New Roman', family: 4, size: 10, underline: 'none', bold: true,color:{argb: '000000'} };
+    columnF15.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+    columnF15.fill= {
+  type: 'pattern',
+  pattern: 'solid',
+  fgColor: { argb: 'FFFF00' }
+  }
+  columnF15.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
 
 // // Add Header Row
 //     const headerRow = worksheet.addRow(header);
@@ -421,6 +453,8 @@ column16.fill= {
     worksheet.getColumn(4).width = 20;
     worksheet.getColumn(2).width = 30;
     worksheet.getColumn(11).width = 25;
+    worksheet.getColumn(5).width = 20;
+    worksheet.getColumn(6).width = 25;
     worksheet.addRow([]);
 
 
