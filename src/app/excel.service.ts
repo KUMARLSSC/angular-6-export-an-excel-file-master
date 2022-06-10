@@ -337,7 +337,7 @@ column12.fill= {
 //column14
 
 const columnCD = worksheet.getCell('C12')
-columnCD.value= '1. LSS/N2301–Carry out cutting operations'
+columnCD.value= '1. LSS/BFDS'
 columnCD.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
 columnCD.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
 columnCD.fill= {
@@ -377,10 +377,18 @@ column16.fill= {
   column16.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
 
   worksheet.mergeCells('E12:F14')
-
+  worksheet.mergeCells('G12:H14')
+  worksheet.mergeCells('I12:J14')
+  worksheet.mergeCells('K12:L14')
+  worksheet.mergeCells('M12:N14')
+  worksheet.mergeCells('O12:P14')
+  worksheet.mergeCells('Q12:R14')
+  worksheet.mergeCells('S12:T14')
+  worksheet.mergeCells('U12:V14')
+  worksheet.mergeCells('W12:X14')
 
   const columnE = worksheet.getCell('E12')
-  columnE.value= 'LSS/N2302– Contribute to achieving product quality in cutting processes	'
+  columnE.value= '2. LSS/FDDI	'
   columnE.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
   columnE.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
   columnE.fill= {
@@ -389,6 +397,105 @@ column16.fill= {
     fgColor: { argb: 'FFFF00' }
     }
     columnE.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
+
+    const columnG = worksheet.getCell('G12')
+    columnG.value= '3. LSS/Q0101	'
+    columnG.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
+    columnG.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+    columnG.fill= {
+      type: 'pattern',
+      pattern: 'solid',
+      fgColor: { argb: 'FFFF00' }
+      }
+      columnG.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
+
+      const columnI = worksheet.getCell('I12')
+      columnI.value= '4. LSS/Q0201	'
+      columnI.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
+      columnI.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+      columnI.fill= {
+        type: 'pattern',
+        pattern: 'solid',
+        fgColor: { argb: 'FFFF00' }
+        }
+        columnI.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
+
+        const columnK = worksheet.getCell('K12')
+        columnK.value= '4. LSS/Q0401'
+        columnK.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
+        columnK.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+        columnK.fill= {
+          type: 'pattern',
+          pattern: 'solid',
+          fgColor: { argb: 'FFFF00' }
+          }
+          columnK.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
+
+          const columnM = worksheet.getCell('M12')
+          columnM.value= '5. LSS/Q0902	'
+          columnM.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
+          columnM.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+          columnM.fill= {
+            type: 'pattern',
+            pattern: 'solid',
+            fgColor: { argb: 'FFFF00' }
+            }
+            columnM.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
+
+            const columnO = worksheet.getCell('O12')
+            columnO.value= '6. LSS/Q2101	'
+            columnO.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
+            columnO.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+            columnO.fill= {
+              type: 'pattern',
+              pattern: 'solid',
+              fgColor: { argb: 'FFFF00' }
+              }
+              columnO.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
+
+              const columnQ = worksheet.getCell('Q12')
+              columnQ.value= '7. LSS/Q2102	'
+              columnQ.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
+              columnQ.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+              columnQ.fill= {
+                type: 'pattern',
+                pattern: 'solid',
+                fgColor: { argb: 'FFFF00' }
+                }
+                columnQ.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
+
+                const columnS = worksheet.getCell('S12')
+                columnS.value= '8. LSS/Q2103	'
+                columnS.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
+                columnS.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+                columnS.fill= {
+                  type: 'pattern',
+                  pattern: 'solid',
+                  fgColor: { argb: 'FFFF00' }
+                  }
+                  columnS.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
+
+                  const columnU = worksheet.getCell('U12')
+                  columnU.value= '9. LSS/Q2201	'
+                  columnU.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
+                  columnU.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+                  columnU.fill= {
+                    type: 'pattern',
+                    pattern: 'solid',
+                    fgColor: { argb: 'FFFF00' }
+                    }
+                    columnU.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
+
+                    const columnW = worksheet.getCell('W12')
+                    columnW.value= '10. LSS/Q2301	'
+                    columnW.font = { name: 'Times New Roman', family: 4, size: 12, underline: 'none', bold: true,color:{argb: '000000'} };
+                    columnW.alignment ={horizontal:'distributed',readingOrder: 'rtl',vertical:'middle'}
+                    columnW.fill= {
+                      type: 'pattern',
+                      pattern: 'solid',
+                      fgColor: { argb: 'FFFF00' }
+                      }
+                      columnW.border = {  top: { style: 'medium' }, left: { style: 'medium' }, bottom: { style: 'medium' }, right: { style: 'medium' }}
 
 /////////////
     const columnE15 = worksheet.getCell('E15')
